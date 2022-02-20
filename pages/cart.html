@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cluach.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>cluachShop | Cart</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#">
+            <div class="header-logo">
+                <i class="fas fa-cogs fa-2x"></i>
+                <h2>cluachShop</h2>
+            </div>
+        </a>
+
+        <div class="header-nav">
+            <a href="/pages/authentication/login.html" class="btn outline btn-s">Login</a>
+            <a href="#">
+                <div class="badge-container">
+                    <i class="far fa-heart icon"></i>
+                    <span class="badge-number br-full">0</span>
+                </div>
+            </a>
+            <a href="/pages/cart.html">
+                <div class="badge-container">
+                    <i class="fas fa-shopping-cart icon"></i>
+                    <span class="badge-number br-full">2</span>
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <main class="flex-row">
+        <div class="cart-product-section flex-col">
+            <div class="card card-horizontal shadow-1">
+                <div class="card-media">
+                    <img src="/assets/mcl/mcl-dr3.png" alt="card media" />
+                </div>
+                <div class="card-badge">33% off</div>
+                <div class="card-horizontal-nonmedia">
+                    <div class="card-details flex-col">
+                        <p class="text-xl text">DR3 - Daniel Ricciardo Cap</p>
+                        <p class="text-xxl text-bold">₹3350 <span class="text-xl text-regular text-strike">₹5000</span>
+                        </p>
+                        <p class="text-span-1 text-xl text-bold">33% off</p>
+                        <p>Quantity: <span class="operator text-center">-</span> <span class="text-bold">1</span> <span
+                                class="operator text-center">+</span></p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn btn-fill btn-s solid br-s">Remove from cart</button>
+                        <button class="btn btn-fill btn-s outline br-s">Move to wishlist</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-horizontal shadow-1">
+                <div class="card-media">
+                    <img src="/assets/mcl/mcl-ln4.png" alt="card media" />
+                </div>
+                <div class="card-badge">33% off</div>
+                <div class="card-horizontal-nonmedia">
+                    <div class="card-details flex-col">
+                        <p class="text-xl text">LN4 - Lando Norris Cap</p>
+                        <p class="text-xxl text-bold">₹3350 <span class="text-xl text-regular text-strike">₹5000</span>
+                        </p>
+                        <p class="text-span-1 text-xl text-bold">33% off</p>
+                        <p>Quantity: <span class="operator text-center">-</span> <span class="text-bold">1</span> <span
+                                class="operator text-center">+</span></p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn btn-fill btn-s solid br-s">Remove from cart</button>
+                        <button class="btn btn-fill btn-s outline br-s">Move to wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-price-section">
+            <div class="price-card flex-col shadow-1">
+                <p class="text-xl text-bold">PRICE DETAILS</p>
+                <hr>
+                <div class="flex-row justify-between">
+                    <p class="text-l">Price (2 items)</p>
+                    <p>₹ 10000</p>
+                </div>
+                <div class="flex-row justify-between">
+                    <p class="text-l">Discount</p>
+                    <p>- ₹ 3300</p>
+                </div>
+                <div class="flex-row justify-between">
+                    <p class="text-l">Delivery Charges</p>
+                    <p>₹ 1000</p>
+                </div>
+                <hr>
+                <div class="text-bold flex-row justify-between">
+                    <p class="text-xl">TOTAL AMOUNT</p>
+                    <p class="text-xl">₹ 7700</p>
+                </div>
+                <hr>
+                <p class="text-l">You will save ₹3300 on this order</p>
+                <button class="btn btn-m">Place order</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
