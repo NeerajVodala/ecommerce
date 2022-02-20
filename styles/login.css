@@ -1,1 +1,8 @@
 /* login page css */
+.login-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 0.875rem;
+}
