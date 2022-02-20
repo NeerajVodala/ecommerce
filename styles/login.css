@@ -1,16 +1,16 @@
 /* login page css */
-.login-page {
+.auth-page {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 80vh;
 }
 
-.login-container {
+.auth-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 10rem;
 }
 
 .login-section {
