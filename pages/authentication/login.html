@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cluach.netlify.app/styles/main.css">
-    <link rel="stylesheet" href="/styles/homepage.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <title>cluachShop | Login</title>
 </head>
 
@@ -35,17 +35,26 @@
             </a>
         </div>
     </header>
-    <main>
-        <div class="login-section">
+    <main class="login-page">
+        <div class="login-container shadow-1">
             <div class="input-section">
                 <div class="input-container">
-                    <label for="" class="label">Label:</label>
-                    <input type="text" placeholder="Enter input here" class="input">
+                    <label for="email" class="label">Email address</label>
+                    <input type="email" placeholder="email@example.com" class="input" id="email">
                 </div>
                 <div class="input-container">
-                    <label for="" class="label">Label:</label>
-                    <input type="text" placeholder="Enter input here" class="input">
+                    <label for="password" class="label">Password</label>
+                    <input type="password" placeholder="••••••••" class="input" id="password">
                 </div>
+                <div class="login-section">
+                    <div>
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me" class="label"> Remember me</label>
+                    </div>
+                    <div>Forgot your Password?</div>
+                </div>
+                <button class="btn btn-s solid">Login</button>
+                <div class="text-light text-center">Create New Account</div>
             </div>
         </div>
     </main>
