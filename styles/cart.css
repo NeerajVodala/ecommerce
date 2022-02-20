@@ -1,3 +1,7 @@
+.cart-container {
+    margin: 2rem 0;
+}
+
 .cart-product-section {
     gap: 2rem;
     flex-basis: 60%;
