@@ -1,0 +1,44 @@
+.cart-product-section {
+    gap: 2rem;
+    flex-basis: 60%;
+}
+
+.cart-price-section {
+    flex-basis: 40%;
+}
+
+.card-horizontal {
+    max-height: 25rem;
+    margin: auto;
+}
+
+.card-media {
+    width: 40%;
+}
+
+.card-horizontal-nonmedia {
+    width: 60%;
+}
+
+.card-details {
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.card-actions {
+    padding: 1rem 0;
+}
+
+.operator {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--bg-primary);
+}
+
+.price-card {
+    width: 90%;
+    padding: 3rem;
+    margin-right: auto;
+    gap: 1rem;
+}
