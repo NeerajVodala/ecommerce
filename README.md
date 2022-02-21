@@ -8,7 +8,7 @@
 - [Home page](https://cluachshop.netlify.app/)
 - [Product listing page](https://cluachshop.netlify.app/pages/products.html)
 - [Wishlist](https://cluachshop.netlify.app/pages/wishlist.html)
-- [Authentication]https://cluachshop.netlify.app/pages/authentication/login.html)
+- [Authentication](https://cluachshop.netlify.app/pages/authentication/login.html)
 - [Cart](https://cluachshop.netlify.app/pages/cart.html)
 
 ---
