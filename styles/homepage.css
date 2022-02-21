@@ -1,0 +1,23 @@
+.header-home {
+    background: transparent;
+}
+
+.lp-img-container {
+    position: absolute;
+    top: 0;
+    z-index: -1; 
+    opacity: 20%;
+}
+
+.elp-heading {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.elp-span {
+    font-size: 5rem;
+}
+
+.lp-container {
+    min-height: 80vh;
+}
