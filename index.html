@@ -6,34 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cluach.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <title>cluachShop</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header header-home">
         <a href="/index.html">
             <div class="header-logo">
                 <i class="fas fa-cogs fa-2x"></i>
                 <h2>cluachShop</h2>
             </div>
         </a>
-
         <div class="header-nav">
             <a href="/pages/authentication/login.html" class="btn outline btn-s">Login</a>
-            <a href="/pages/wishlist.html">
-                <div class="badge-container">
-                    <i class="far fa-heart icon"></i>
-                    <span class="badge-number br-full">2</span>
-                </div>
-            </a>
-            <a href="/pages/cart.html">
-                <div class="badge-container">
-                    <i class="fas fa-shopping-cart icon"></i>
-                    <span class="badge-number br-full">2</span>
-                </div>
-            </a>
         </div>
     </header>
+    <main class="lp-container flex-row justify-center align-center">
+        <div class="lp-img-container">
+            <img src="assets/image-responsive.jpg" class="img-responsive" alt="mclaren">
+        </div>
+        <div class="flex-col justify-center align-center gp-2xl">
+            <p class="elp-heading text-center text-bold">Official Formula 1 caps at<br><span
+                    class="text-black elp-span">33%</span> discount</p>
+                    <a href="/pages/products.html" class="btn btn-l solid">Buy Now</a>
+        </div>
+    </main>
 </body>
 
 </html>
