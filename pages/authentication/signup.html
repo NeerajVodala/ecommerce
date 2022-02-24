@@ -10,7 +10,7 @@
     <title>cluachShop | Signup</title>
 </head>
 
-<body>
+<body class="light-mode">
     <header class="header">
         <a href="/index.html">
             <div class="header-logo">
@@ -20,8 +20,8 @@
         </a>
 
         <div class="header-nav">
-            <a href="/pages/authentication/login.html" class="btn outline btn-s">Login</a>
-            <a href="#">
+            <a href="/pages/authentication/login.html" class="btn outline btn-s br-s">Login</a>
+            <a href="/pages/wishlist.html">
                 <div class="badge-container">
                     <i class="far fa-heart icon"></i>
                     <span class="badge-number br-full">0</span>
@@ -35,21 +35,23 @@
             </a>
         </div>
     </header>
-    <main class="auth-page">
-        <div class="auth-container shadow-1">
+    <main class="auth-page flex-row align-center justify-center">
+        <div class="auth-container flex-row align-center justify-center shadow-1 br-s">
             <div class="input-section">
                 <h3>Signup</h3>
+                <div class="flex-row align-center justify-center gp-2xl">
+                    <div class="input-container">
+                        <label for="first-name" class="label">First Name</label>
+                        <input type="text" placeholder="Enter first name" class="input" id="first-name">
+                    </div>
+                    <div class="input-container">
+                        <label for="last-name" class="label">Last Name</label>
+                        <input type="text" placeholder="Enter last name" class="input" id="last-name">
+                    </div>
+                </div>
                 <div class="input-container">
                     <label for="email" class="label">Email address</label>
                     <input type="email" placeholder="email@example.com" class="input" id="email">
-                </div>
-                <div class="input-container">
-                    <label for="first-name" class="label">First Name</label>
-                    <input type="text" placeholder="Enter first name" class="input" id="first-name">
-                </div>
-                <div class="input-container">
-                    <label for="last-name" class="label">Last Name</label>
-                    <input type="text" placeholder="Enter last name" class="input" id="last-name">
                 </div>
                 <div class="input-container">
                     <label for="password" class="label">Password</label>
@@ -63,8 +65,8 @@
                     <input type="checkbox" id="terms">
                     <label for="terms" class="label">I accept all Terms & Conditions</label>
                 </div>
-                <button class="btn btn-s solid">Create New Account</button>
-                <div class="text-light text-center"><a href="/pages/authentication/login.html">Already have an
+                <button class="btn btn-m solid br-s">Create New Account</button>
+                <div class="text-center"><a href="/pages/authentication/login.html">Already have an
                         account</a></div>
             </div>
         </div>

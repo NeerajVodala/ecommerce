@@ -10,7 +10,7 @@
     <title>cluachShop | Login</title>
 </head>
 
-<body>
+<body class="light-mode">
     <header class="header">
         <a href="/index.html">
             <div class="header-logo">
@@ -20,8 +20,8 @@
         </a>
 
         <div class="header-nav">
-            <a href="#" class="btn outline btn-s">Login</a>
-            <a href="#">
+            <a href="/pages/authentication/login.html" class="btn outline btn-s br-s">Login</a>
+            <a href="/pages/wishlist.html">
                 <div class="badge-container">
                     <i class="far fa-heart icon"></i>
                     <span class="badge-number br-full">0</span>
@@ -35,8 +35,8 @@
             </a>
         </div>
     </header>
-    <main class="auth-page">
-        <div class="auth-container shadow-1">
+    <main class="auth-page flex-row align-center justify-center">
+        <div class="auth-container flex-row align-center justify-center shadow-1 br-s">
             <div class="input-section">
                 <h3>Login</h3>
                 <div class="input-container">
@@ -47,15 +47,15 @@
                     <label for="password" class="label">Password</label>
                     <input type="password" placeholder="••••••••" class="input" id="password">
                 </div>
-                <div class="login-section">
-                    <div>
+                <div class="flex-row align-center justify-center gp-2xl">
+                    <div class="flex-row align-center gp-s">
                         <input type="checkbox" id="remember-me">
-                        <label for="remember-me" class="label"> Remember me</label>
+                        <label for="remember-me" class="label text-s"> Remember me</label>
                     </div>
-                    <div>Forgot your Password?</div>
+                    <div class="text-s">Forgot your Password?</div>
                 </div>
-                <button class="btn btn-s solid">Login</button>
-                <div class="text-light text-center"><a href="/pages/authentication/signup.html">Create New Account</a>
+                <button class="btn btn-m solid br-s">Login</button>
+                <div class="text-center text-m"><a href="/pages/authentication/signup.html">Create New Account</a>
                 </div>
             </div>
         </div>
